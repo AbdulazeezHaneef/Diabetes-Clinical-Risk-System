@@ -1,0 +1,23 @@
+Random Forest Results
+Accuracy: 0.7142857142857143
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.85      0.82       100
+           1       0.68      0.59      0.63        54
+
+    accuracy                           0.76       154
+   macro avg       0.74      0.72      0.73       154
+weighted avg       0.75      0.76      0.76       154
+
+
+Feature Importance:
+                    Feature  Importance
+1                   Glucose    0.276
+5                       BMI    0.160
+7                       Age    0.127
+6  DiabetesPedigreeFunction    0.127
+2             BloodPressure    0.086
+0               Pregnancies    0.084
+4                   Insulin    0.072
+3             SkinThickness    0.068
